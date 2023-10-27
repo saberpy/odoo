@@ -1,0 +1,246 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cardex_inventory
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210228\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-18 06:34+0000\n"
+"PO-Revision-Date: 2023-10-18 06:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cardex_inventory
+#: code:addons/cardex_inventory/models/stock_quant.py:0
+#, python-format
+msgid ""
+"\n"
+"                <p class=\"o_view_nocontent_empty_folder\">No Stock On Hand</p>\n"
+"                <p>This analysis gives you an overview of the current stock\n"
+"                level of your products.</p>\n"
+"                "
+msgstr ""
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.creat_cardex_view_form
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: cardex_inventory
+#: model:ir.model,name:cardex_inventory.model_creat_cardex_wizard
+msgid "Create Criterion Date Wizard"
+msgstr "ویزارد ساخت تاریخ معیار"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__create_uid
+msgid "Created by"
+msgstr "ایجاد توسط"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__criterion_date
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.creat_cardex_view_form
+msgid "Criterion Date"
+msgstr "تاریخ معیار"
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.view_move_line_form_reload
+msgid "Destination Package"
+msgstr "بسته مقصد "
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__display_name
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line__display_name
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_picking_type__display_name
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_quant__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line__doc_type
+msgid "Document Type"
+msgstr "نوع سند"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__from_date
+msgid "From Date"
+msgstr "از تاریخ"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__id
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line__id
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_picking__id
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_picking_type__id
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_quant__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: cardex_inventory
+#: model:ir.model.fields.selection,name:cardex_inventory.selection__stock_picking_type__type__in
+msgid "IN"
+msgstr "ورود"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__inv_location
+msgid "Inv Location"
+msgstr "مکان انبار"
+
+#. module: cardex_inventory
+#: model:ir.actions.server,name:cardex_inventory.action_stock_test
+msgid "Inventory Cardex"
+msgstr "کاردکس انبار"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard____last_update
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line____last_update
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_picking_type____last_update
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_quant____last_update
+msgid "Last Modified on"
+msgstr "آخرین تغییر در"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخرین بروزرسانی توسط"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخرین بروزرسانی"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line__moves_in
+msgid "Moves In"
+msgstr "ورودی"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line__moves_out
+msgid "Moves Out"
+msgstr "خروجی"
+
+#. module: cardex_inventory
+#: model:ir.model.fields.selection,name:cardex_inventory.selection__stock_picking_type__type__out
+msgid "OUT"
+msgstr "خروج"
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.view_move_line_form_reload
+msgid "Owner"
+msgstr "مالک"
+
+#. module: cardex_inventory
+#: model:ir.model,name:cardex_inventory.model_stock_picking_type
+msgid "Picking Type"
+msgstr ""
+
+#. module: cardex_inventory
+#. openerp-web
+#: code:addons/cardex_inventory/static/src/xml/tree_view_button.xml:0
+#, python-format
+msgid "Price Preremain :"
+msgstr "مبلغ از قبل باقی مانده :"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line__price_rate
+msgid "Price Rate"
+msgstr "نرخ"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__product_ids
+msgid "Product"
+msgstr "محصول"
+
+#. module: cardex_inventory
+#: model:ir.model,name:cardex_inventory.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "انتقال محصولات"
+
+#. module: cardex_inventory
+#. openerp-web
+#: code:addons/cardex_inventory/static/src/xml/tree_view_button.xml:0
+#, python-format
+msgid "Qty Preremain :"
+msgstr "تعداد باقی مانده از قبل :"
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.view_move_line_form_reload
+msgid "Quantity Done"
+msgstr "تعداد انجام شد"
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.view_move_line_form_reload
+msgid "Quantity Reserved"
+msgstr "تعداد رزرو شد"
+
+#. module: cardex_inventory
+#: model:ir.model,name:cardex_inventory.model_stock_quant
+msgid "Quants"
+msgstr "چند تا"
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.view_move_line_form_reload
+msgid "Reference"
+msgstr "شماره پیگیری"
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.view_move_line_form_reload
+msgid "Source Package"
+msgstr "بسته منبع"
+
+#. module: cardex_inventory
+#: code:addons/cardex_inventory/models/stock_quant.py:0
+#, python-format
+msgid "Stock On Hand"
+msgstr "در دسترس"
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.creat_cardex_view_form
+msgid "Submit"
+msgstr "تایید"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line__sum_qty_done
+msgid "Sum Qty Done"
+msgstr "کاردکس تعدادی"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_move_line__sum_price_unit
+msgid "Sum of Price Unit"
+msgstr "مبلغ"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_creat_cardex_wizard__to_date
+msgid "To Date"
+msgstr "تا تاریخ"
+
+#. module: cardex_inventory
+#: model:ir.model,name:cardex_inventory.model_stock_picking
+msgid "Transfer"
+msgstr "انتقال"
+
+#. module: cardex_inventory
+#: model:ir.model.fields,field_description:cardex_inventory.field_stock_picking_type__type
+msgid "Type"
+msgstr "نوع"
+
+#. module: cardex_inventory
+#: model_terms:ir.ui.view,arch_db:cardex_inventory.view_move_line_form_reload
+msgid "Unit of Measure"
+msgstr "واحد اندازه گیری"
+
+#. module: cardex_inventory
+#: code:addons/cardex_inventory/wizard/create_cardex.py:0
+#, python-format
+msgid "cardex"
+msgstr "کاردکس"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- add span in header and show last remain-->
+<templates>
+    <t t-extend="ListView.buttons">
+        <t t-jquery="div.o_list_buttons" t-operation="after">
+            <div t-if='widget.modelName == "stock.move.line" and widget.controlPanelProps.view.name=="stock.move.line.tree.reload"' class="oe_new_custom_text text-right mt-4">           
+                <div>    
+                    <span id='preremain-text' class="h4">Qty Preremain : 
+                        <t t-esc='widget.model.loadParams.context.sum_qty_in_fiscal'/>
+                    </span>
+                </div>
+                <div class="mt-3">    
+                    <span id='preremain-text-price' class="h4">Price Preremain : 
+                        <t t-esc='widget.model.loadParams.context.sum_price_unit_in_fiscal'/>
+                    </span>
+                </div>
+            </div>
+        </t>
+    </t>
+</templates>

@@ -1,0 +1,24 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!--view for reload stock.move.line model-->
+    <record id="view_move_line_tree_reload" model="ir.ui.view">
+        <field name="name">stock.move.line.tree.reload</field>
+        <field name="model">stock.move.line</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="date"/>
+                <field name="product_id"/>
+                <field name="reference"/> 
+                <field name="qty_done"/>
+                <field name="sum_qty_done"/>
+                <field name="location_id"/>
+                <field name="location_dest_id"/>
+                <field name="doc_type"/>
+                <field name="move_in" widget='badge' decoration-success="move_in == 'in'"/>
+                <field name="move_out" widget='badge' decoration-danger="move_out == 'out'"/>
+                <field name="state" widget='badge' decoration-success="state == 'done'" decoration-info="state not in ('done', 'cancel')"/>
+            </tree>
+        </field>
+    </record>
+</odoo> -->

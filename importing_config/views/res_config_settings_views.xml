@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    
+        <record id="max_importing_view_form" model="ir.ui.view">
+            <field name="name">max.importing.view.form.inherit.base.setup</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='allow_import']" position="after">
+                    <div class="col-12 col-lg-6 o_setting_box" id="max_import">
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">Import Size</span>
+                            <div class="text-muted">
+                                Set Max Import Size by (MB)
+                            </div>
+                            <div class="content-group">
+                                <div class="mt16 row">
+                                    <label for="max_import_size" string="MB" class="col-3 col-lg-3 o_light_label"/>
+                                    <field name="max_import_size" class="oe_inline" required="1"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+
+</odoo>

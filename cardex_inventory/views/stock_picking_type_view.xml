@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- add custom field to stock picking type view form here-->
+    <record id="inherit_stock_picking_type" model="ir.ui.view">
+        <field name="name">inherit.stock.picking.type</field>
+        <field name="model">stock.picking.type</field>
+        <field name="inherit_id" ref="stock.view_picking_type_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='code']" position="after">
+                <field name="type"/>
+            </xpath>
+        </field>
+    </record>
+
+    
+    
+</odoo>
